@@ -19,6 +19,5 @@ Still lots of things to learn from [Python documentation] (https://docs.python.o
 - [ ] itertools
 - [ ] functools
 
-*Insight* : I feel that the course on functional programming about how lambda functions actually works and centres about expressions
-gave me more insights in getting the feel of lambda functions which had always been a daunting factor for me.
+*Insight* : I feel that the course on functional programming about how lambda function actually works and centres about expressions gave me more insights in getting the feel of inbuilt lambda functions which had always been a daunting factor for me.
 
