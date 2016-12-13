@@ -43,3 +43,26 @@ for item in map(sqr, items):
 This is a more pythonic way of working with map.
 '''
 print(list(map(sqr, items)))
+
+'''
+Passing Multiple Sequences in map().
+If our function inside map needs n arguments, we can pass n sequences
+which can be processed in parallel.
+In this case, power function takes 2 arguments, pow(x,y) => x**y
+So, we pass sequence 1 for x and sequence 2 from y.
+NOTE : Size of both the sequences must be same as parallel process
+will be going on.
+'''
+
+print(list(map(pow, [1, 2, 3, 4, 5], [2, 4, 6, 8, 0])))
+
+'''
+Working of the above code :
+
+pow(1,2) => 1 : result appended in list
+pow(2,4) => 16 : result appended in list
+pow(3,6) => 729 : result appended in list
+pow(4,8) => 65536 : result appended in list
+
+Finally overall list is returned/printed.
+'''
