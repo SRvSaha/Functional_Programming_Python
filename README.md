@@ -1,6 +1,6 @@
 # Functional_Programming_Python
 This is created to learn more about functional Programming in Python inspired from 
-this [blog post] (www.bogotobogo.com/python/python_fncs_map_filter_reduce.php).
+this [blog post](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php).
 
 To understand the intricacies of how these built in methods works, I have replicated their core implementation
 using basic Python loops and lists. These built-in methods are optimized so even if we can get our work done using
