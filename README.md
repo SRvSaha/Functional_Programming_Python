@@ -11,6 +11,7 @@ core implementations everytime but we can't get optimized results using our code
 - [x] reduce
 - [x] filter
 - [x] lambda
+- [x] list comprehension
 
 **TODO**:
 Still lots of things to learn from [Python documentation] (https://docs.python.org/3.5/howto/functional.html).
